@@ -1,0 +1,30 @@
+{
+  "name": "night-islands",
+  "displayName": "Night Islands",
+  "description": "Night Owl syntax colors with Islands Dark glass UI — floating panels, rounded corners, smooth animations.",
+  "version": "1.0.0",
+  "publisher": "mayhem",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "night owl",
+    "islands",
+    "glass"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Night Islands",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night-islands.json"
+      }
+    ]
+  }
+}
